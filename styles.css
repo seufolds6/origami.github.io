@@ -1,0 +1,67 @@
+/* I use the following 5 CSS selectors:
+grouping selector
+id selector
+class selector
+pseudo-class selector
+combinator selector */
+
+/* I use the following 6 CSS properties:
+margin, text-align, color, text-decoration, font-size, background-color */
+
+/* 5 CSS grouping selectors */
+body
+{
+    margin: 100px 150px 100px 150px;
+}
+h1
+{
+    text-align: center;
+    color: green;
+}
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+h3
+{
+    text-align: center;
+}
+div
+{
+    font-size: 25px;
+}
+
+
+/* 1 CSS id selector */
+
+#Fun_Facts
+{
+    color: green;
+}
+
+
+/* 1 CSS class selector */
+
+.center_underline
+{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+
+/* 1 CSS pseudo-class selector */
+
+/* assign color for when the mouse hovers over a link */
+a:hover
+{
+  color: #0000FF;
+}
+
+
+/* 1 CSS combinator selector (child selector) */
+div > p
+{
+  background-color: #add8e6;
+}
